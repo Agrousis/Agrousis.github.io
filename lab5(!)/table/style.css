@@ -1,0 +1,113 @@
+body{
+  background: url(../pictures/2.jpg) center top / cover;
+  color: #fff;
+}
+.header{
+  width: 100%;
+}
+.first{
+  height: 700px;
+  width: 400px;
+}
+.second{
+  height: 700px;
+  width: 1400px;
+}
+.logo{
+  width: 85%;
+}
+table{
+  border-spacing: 20px;
+}
+.menu{
+  margin-left: 35%;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+.margin{
+  margin-left: 40px;
+}
+.news{
+  background-color: #696262;
+  opacity: 0.4;
+  border: 1px solid red;
+  border-radius: 0 10px 5px 20px;
+  width: 400px;
+  padding: 10px 10px;
+
+}
+.footer{
+  margin-top: 30px;
+  position: fixed;
+  bottom: 0;
+}
+.footer p{
+  display: block;
+  color: rgb(127, 125, 129);
+  margin-left: 20px;
+}
+.width20{
+  width: 20%;
+}
+.mtable{
+  width: 100%;
+}
+.main{
+  width: 60%;
+}
+.main iframe{
+  width:100%;
+  height:500px;
+}
+.float{
+  float: left;
+}
+.pp{
+  margin-left: 200px;
+}
+.ppp{
+  margin-left: 40px;
+}
+.klist{
+  width: 20%;
+}
+.klist li{
+  margin-top: 20px;
+  display: block;
+}
+.katalog{
+  border-spacing: 40px;
+}
+.katalog td{
+height: 200px;
+width: 250px;
+border: 1px solid red;
+border-radius: 60px 60px 60px 60px;
+opacity: 0.4;
+padding-left: 7%;
+padding-top: 20px;
+}
+.katalog td a{
+  display: block;
+}
+.fkont{
+  width: 51%;
+}
+.anim{
+  animation-name: spin;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes spin{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+/*{
+  border: 1px solid red;
+}
